@@ -29,6 +29,12 @@
     <Filter Include="Dxerr">
       <UniqueIdentifier>{897e69d5-97fa-42b0-aa73-a83dd2823328}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Bindable">
+      <UniqueIdentifier>{27dfa0f0-866b-4d15-81ff-a298cea60c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Drawable">
+      <UniqueIdentifier>{f4a6503d-7518-4619-8ce9-408f917dbc68}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Window.cpp">
@@ -58,41 +64,41 @@
     <ClCompile Include="Graphics.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="dxerr.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="DxgiInfoManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="IndexBuffer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Bindable.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>源文件\Bindable</Filter>
     </ClCompile>
     <ClCompile Include="InputLayout.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Bindable</Filter>
     </ClCompile>
     <ClCompile Include="PixelShader.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Bindable</Filter>
     </ClCompile>
     <ClCompile Include="Topology.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="VertexBuffer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="VertexShader.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Drawable.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Box.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Bindable</Filter>
     </ClCompile>
     <ClCompile Include="TransformCbuf.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>源文件\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>源文件\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="dxerr.cpp">
+      <Filter>Dxerr</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>源文件\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>源文件\Drawable</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
