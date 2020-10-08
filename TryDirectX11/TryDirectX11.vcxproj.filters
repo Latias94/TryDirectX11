@@ -180,6 +180,9 @@
     <ClInclude Include="DxgiInfoManager.h">
       <Filter>Dxerr</Filter>
     </ClInclude>
+    <ClInclude Include="DrawbleBase.h">
+      <Filter>头文件\Drawable</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DXGetErrorDescription.inl">

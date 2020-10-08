@@ -1,7 +1,7 @@
 #pragma once
-#include "Drawable.h"
+#include "DrawbleBase.h"
 
-class Box : public Drawable
+class Box : public DrawableBase<Box>
 {
 public:
     // mt19937 Mersenne Twister算法译为马特赛特旋转演算法，是伪随机数发生器之一
